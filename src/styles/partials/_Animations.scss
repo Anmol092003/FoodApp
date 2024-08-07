@@ -1,0 +1,28 @@
+@keyframes slideToLeft{
+    to{
+        transform: translate(0);
+    }
+    from{
+        transform: translate(-100%);
+    }
+}
+@keyframes outPut{
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+@keyframes slideInRight {
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
