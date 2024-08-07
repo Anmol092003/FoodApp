@@ -2,7 +2,7 @@ export default function improveSkill(){
 
     const list=[
         "Learn new recepies",
-        "Ecperiment with food",
+        "Experiment with food",
         "Write your own recepies",
         "Know nutrition facts",
         "Get cooking tips",
@@ -15,7 +15,7 @@ export default function improveSkill(){
                 </div>
 
             <div className="col typography">
-                <h1 className="title">Imprpive Your Culinary Skill</h1>
+                <h1 className="title">Improve Your Culinary Skill</h1>
                 {list.map((item,index) => (
                     <p className="skill-item" key={index}>{item}</p>
                 ))}
